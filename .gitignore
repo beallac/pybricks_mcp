@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+__pypackages__/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tool caches
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Local data/stores
+chroma_pybricks/
+data/
+tmp/
+*.sqlite
+*.db
+
+# Environment files
+.env
+.env.*
+!.env.example
