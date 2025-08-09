@@ -37,7 +37,6 @@ htmlcov/
 logs/
 
 # Editors/IDE
-.vscode/
 .idea/
 
 # Local data/stores

@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "Pybricks RAG": {
+      "type": "stdio",
+  "command": "${workspaceFolder}/.venv/bin/python",
+  "args": ["-m", "pybricks_mcp_server"],
+      "env": {
+        "CHROMA_PATH": "${workspaceFolder}/chroma_pybricks",
+        "EMBED_MODEL": "all-MiniLM-L6-v2"
+      },
+      "dev": { "watch": "**/*.py" }
+    }
+  }
+}
